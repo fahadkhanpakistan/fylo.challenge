@@ -74,10 +74,6 @@
     }
 
     .second-page a {
-        display: block;
-        margin-left: 4.6rem;
-        width: 190px;
-        display: flex;
         font-size: 1.08rem;
     }
 
@@ -87,7 +83,25 @@
 
     .second-page h3 {
         font-size: 2rem;
-        padding-bottom: 4rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .second-page-image-text {
+        padding-left: 2rem;
+    }
+
+    .second-page-image-text p {
+        padding: 0;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    
+
+    .second-page-image-text 
+    a {
+        padding-top: 1rem;
+        width: 189px;
     }
 
     .team {
