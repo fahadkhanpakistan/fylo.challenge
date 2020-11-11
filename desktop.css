@@ -1,6 +1,7 @@
 @media only screen and (min-width: 700px) {
     .logo img {
         width: 110%;
+        padding-left: 2rem;
     }
 
     .list {

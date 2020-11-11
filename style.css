@@ -39,9 +39,11 @@ nav {
 
 .logo img {
     width: 120px;
+    padding-left: 1rem;
 }
 
 .list {
+    padding-right: 1rem;
     list-style: none;
     display: flex;
 }
@@ -243,6 +245,10 @@ input {
 
 
 /*    footer starts here*/
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
 
 .address {
     line-height: 25px;
