@@ -31,10 +31,14 @@ main {
 
 /*nav*/
 nav {
-    padding: 1.5rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo img {
+    width: 120px;
 }
 
 .list {

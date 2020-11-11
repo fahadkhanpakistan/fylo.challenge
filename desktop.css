@@ -1,4 +1,17 @@
 @media only screen and (min-width: 700px) {
+    .logo img {
+        width: 110%;
+    }
+
+    .list {
+        margin-right: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .list li {
+        padding-right: 3rem;
+    }
+
     .first-page {
         width: 50%;
         margin: auto;
@@ -151,6 +164,7 @@
     .social-media img {
         margin: 0;
     }
-    .icons{
+
+    .icons {
         margin: 0;
     }
