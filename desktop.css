@@ -1,0 +1,156 @@
+@media only screen and (min-width: 700px) {
+    .first-page {
+        width: 50%;
+        margin: auto;
+    }
+
+    .first-page h1,
+    p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .first-page p {
+        font-size: 1rem;
+    }
+
+    .icons-article {
+        margin: auto;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icons {
+        margin: auto;
+        width: 50%;
+    }
+
+    .first-image {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    #main-image {
+        display: block;
+        margin: auto;
+        width: 60%;
+    }
+
+
+    #get-started {
+        text-shadow: 2px 1px 2px #555;
+        letter-spacing: 2px;
+        width: 220px;
+    }
+
+
+    .second-page {
+        padding-top: 2rem;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-page img {
+        width: 45%;
+    }
+
+    .second-page a {
+        display: block;
+        margin-left: 4.6rem;
+        width: 190px;
+        display: flex;
+        font-size: 1.08rem;
+    }
+
+    .second-page a > img {
+        width: 30px;
+    }
+
+    .second-page h3 {
+        font-size: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .team {
+        margin: auto;
+        /*        width: 100%;*/
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .card p {
+        width: 100%;
+        font-size: .7rem;
+    }
+
+    .card-info h3 {
+        font-size: .7rem;
+    }
+
+    .card-info p > small {
+        font-size: .66rem;
+    }
+
+    .early-access {
+        width: 50%;
+    }
+
+    .early-access input,
+    button {
+        display: inline-block;
+        width: 60%;
+    }
+
+    #second-btn {
+        margin-left: 1.5rem;
+        width: 30%;
+        display: inline-block;
+    }
+
+    .early-access h2 {
+        font-size: 2rem;
+    }
+
+    .early-access p {
+        font-size: .9rem;
+    }
+
+    .footer-info {
+        width: 85%;
+        margin: auto;
+        display: flex;
+    }
+
+    .about-us {
+        font-size: 1rem;
+        padding-top: 6rem;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        margin-bottom: 1rem;
+    }
+
+    .social-media {
+        padding-left: 7rem;
+
+    }
+
+    .social-media img {
+        margin: 0;
+    }
+    .icons{
+        margin: 0;
+    }

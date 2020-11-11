@@ -1,0 +1,281 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.common {
+    padding: 0 1rem 0 1rem;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+/*        Main starts here*/
+main {
+    width: 100%;
+}
+
+/*nav*/
+nav {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li:not(:last-child) {
+    padding-right: 15px;
+}
+
+.list li a {
+    color: hsl(0, 0%, 70%);
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: hsl(0, 0%, 90%);
+}
+
+
+/*End of nav*/
+
+
+/*    first page*/
+.first-image {
+    padding-bottom: 1.5rem;
+}
+
+.first-image img {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.first-page h1 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.first-page p {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.first-page {
+    width: 100%;
+}
+
+/*end of first page*/
+
+
+/*    Buttons*/
+#get-started,
+button {
+    margin: 5px auto;
+    display: block;
+    width: 60%;
+    padding: 10px 1rem;
+    border-radius: 20px;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+
+#get-started:hover,
+button:hover {
+    background-color: hsl(176, 68%, 40%);
+
+}
+
+
+/*        icons*/
+
+.icons {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.icons img {
+    display: block;
+    margin: auto;
+    width: 50px;
+    padding-bottom: 1.5rem;
+}
+
+.icons h3 {
+    padding-bottom: 0.5rem;
+}
+
+
+
+/*        ***second page****/
+
+.second-page {
+    padding: 2rem;
+}
+
+.second-page-image-text h3 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.second-page-image-text p {
+    padding-bottom: 1rem;
+}
+
+.second-page-image-text a {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid;
+    margin-right: 1rem;
+    padding-bottom: 0.4rem;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a img {
+    padding-left: .3rem;
+}
+
+
+.team {
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    border-radius: 4px;
+    width: 100%;
+    background-color: hsl(219, 30%, 18%);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card > p {
+    line-height: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 9px;
+    padding-bottom: 1rem;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-info figcaption {
+    padding-left: 10px;
+}
+
+figcaption h3 {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+p > small {
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#second-btn,
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+.early-access input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+#second-btn {
+    margin-top: 1rem;
+}
+
+.early-access {
+    width: 90%;
+    margin: 5rem auto 2rem auto;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.early-access h2 {
+    padding-bottom: 1rem;
+}
+
+.early-access p {
+    line-height: 20px;
+    font-size: 10px;
+    padding-bottom: 1rem;
+}
+
+
+/*    footer starts here*/
+
+.address {
+    line-height: 25px;
+    padding: 1rem;
+}
+
+.address p {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+}
+
+.address p img {
+    padding-right: 1rem;
+}
+
+.address:first-child {
+    padding-top: 2rem;
+}
+
+.address img {
+    padding-bottom: 1rem;
+}
+
+.about-us {
+    padding: 1rem;
+    line-height: 30px;
+}
+
+.social-media img {
+    padding-bottom: 1rem;
+    width: 30px;
+}
+
+.social-media {
+    margin: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
