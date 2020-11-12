@@ -173,6 +173,9 @@
 
     .social-media {
         padding-left: 7rem;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
 
     }
 
